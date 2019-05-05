@@ -1,0 +1,24 @@
+{
+    "name": "andrew_marhai/test_orm_model",
+    "description": "Test orm model",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Andrew Marhai",
+            "email": "buk2018irinam@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "andrew_marhai\\product\\": "classes/"
+        }
+    }
+
+}
